@@ -1,0 +1,253 @@
+@media screen and (max-width:1470px){
+#navbar{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+}
+.right-top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+}
+#order h1{
+    font-size: 52px;
+     margin-left: 370px;
+}
+.order{
+    font-size: 52px;
+    margin-left: 330px;
+}
+}
+
+@media screen and (max-width:992px){
+    #home h1 {
+        font-size: 45px;
+        padding-top: 119px;
+        text-align: center;
+}
+#home p {
+    text-align: center;
+    font-size: 26px;
+    padding-left: 21px;
+    padding-right: 31px;
+    flex-wrap: wrap;
+}
+#library h1 {
+    text-align: center;
+    font-size: 56px;
+    padding: 20px;
+}
+#section {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 24px;
+    overflow: hidden;
+    justify-content: center;
+}
+#section .box {
+    background: url(img/bg.jpg) no-repeat center center / cover;
+    margin: 20px 23px;
+    padding: 10px;
+    width: 367px;
+    border-radius: 13px;
+}
+#section .box img {
+    margin: 7px 74px;
+    height: 157px;
+    width: 181px;
+}
+#section .box h4 {
+    font-size: 29px;
+    text-align: center;
+    margin: 9px;
+    color: #0320fc;
+}
+#section .box p {
+    font-size: 11px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#order {
+    background: url(img/ordernow4.jpg) no-repeat center center / cover;
+    height: 544px;
+    overflow: hidden;
+}
+#order h1 {
+    font-size: 47px;
+    margin-left: 13px;
+    text-align: center;
+}
+.table-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.order {
+    font-size: 68px;
+    margin-left: 272px;
+    margin-right: 11px;
+}
+form {
+    font-size: 24px;
+    text-align: left;
+}
+tr {
+    background-color: white;
+    font-size: 19px;
+}
+#feedback {
+    height: 485px;
+}
+#feedback h1 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 47px;
+    padding: 17px;
+}
+#feedback table {
+    border: 3px solid #000000;
+    width: 558px;
+    height: 315px;
+}
+}
+
+
+@media screen and (max-width:584px){
+    .left-top {
+        display: flex;
+        margin-left: 7px;
+        margin-top: 13px;
+    }
+    .right-top {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: -7px;
+    }
+    .right-top ul {
+        display: flex;
+        padding: 9px 45px;
+    }
+    .right-top ul li {
+        padding: 0px 10px;
+        list-style: none;
+        font-size: 17px;
+        font-weight: 300;
+    }
+    #home {
+        background: url(img/bookbg3.jpg) no-repeat center center / cover;
+        width: 100%;
+        height: 312px;
+        overflow: hidden;
+    }
+    #home h1 {
+        font-size: 34px;
+        padding-top: 71px;
+        text-align: center;
+    }
+    #home p {
+        text-align: center;
+        font-size: 18px;
+        padding-left: 21px;
+        padding-right: 31px;
+        flex-wrap: wrap;
+    }
+    #library h1 {
+        text-align: center;
+        font-size: 36px;
+        padding: 5px;
+    }
+    #section {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 5px;
+        overflow: hidden;
+        justify-content: center;
+    }
+    #section .box {
+        background: url(img/bg.jpg) no-repeat center center / cover;
+        margin: 20px 23px;
+        padding: 10px;
+        width: 260px;
+        border-radius: 13px;
+    }
+    #section .box img {
+        margin: 7px 74px;
+        height: 111px;
+        width: 87px;
+    }
+    #section .box h4 {
+        font-size: 20px;
+        text-align: center;
+        margin: 9px;
+        color: #0320fc;
+    }
+    #section .box p {
+        font-size: 12px;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    #order {
+        background: url(img/ordernow4.jpg) no-repeat center center / cover;
+        height: 524px;
+        overflow: hidden;
+    }
+    #order h1 {
+        font-size: 39px;
+        margin-left: 3px;
+        text-align: center;
+    }
+    .order {
+        margin-left: 272px;
+        margin-right: 251px;
+    }
+    tr {
+        background-color: white;
+        font-size: 19px;
+    }
+    button {
+        font-size: 15px;
+        border-radius: 10px;
+        background: url(img/background4.jpg) no-repeat center center / cover;
+        color: white;
+    }
+    #feedback {
+        height: 420px;
+    }
+    #feedback h1 {
+        color: rgb(0, 0, 0);
+        text-align: center;
+        font-size: 39px;
+        padding: 17px;   
+    }
+#feedback table {
+    border: 3px solid #000000;
+    width: 314px;
+    height: 271px;
+}
+#feedback label {
+    padding: 0px 0px;
+}
+#feedback textarea{
+    width: 240px;
+}
+#feedback tr{
+    font-size: 17px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+    

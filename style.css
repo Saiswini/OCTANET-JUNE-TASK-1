@@ -1,0 +1,174 @@
+ *{
+    padding: 0px;
+    margin: 0px;
+}
+#home{
+    background: url('img/bookbg3.jpg') no-repeat center center/cover;
+    width: 100%;
+    height: 490px;
+    overflow: hidden;
+}
+#home h1{
+    font-size: 62px;
+    padding-top: 148px;
+    text-align: center;
+}
+#home p{
+    text-align: center;
+    font-size: 32px;
+    padding-left: 148px;
+    padding-right: 148px;
+    flex-wrap: wrap;
+}
+ #navbar{
+    background: url(img/background4.jpg) no-repeat center center/cover;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    display: flex;
+    overflow: hidde
+}
+.left-top{
+    display: flex;
+    margin-left: 49px;
+    margin-top: 13px;
+}
+.left-top h4{
+    color: white;
+    padding: 0px 13px;
+    font-size: 25px;
+}
+.right-top{
+     margin-left: 700px;
+    font-size: 20px;
+    display: flex;
+}
+.right-top ul{
+display: flex;
+padding: 15px 79px;
+}
+.right-top ul li {
+    padding: 0px 13px;
+    list-style: none;
+    font-size: 21px;
+    font-weight: 300;
+}
+#navbar li a{
+    text-decoration: none;
+    color: white;
+}
+#navbar li a:hover{
+    color: rgb(11, 10, 10);
+    background-color: white;
+    border-radius: 4px;
+}
+.button{
+    text-align: center;
+    padding: 6px 6px;
+    font-size: 20px;
+    margin-left: 705px;
+    border-radius: 17px;
+    background: url(img/background4.jpg) no-repeat center center/cover;
+    color: white;
+}
+#library h1{
+    text-align: center;
+    font-size: 62px;
+    padding: 21px;
+}
+#section {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 47px;
+    overflow: hidden;
+}
+#section .box{
+    background: url(img/bg.jpg) no-repeat center center/cover;
+    margin: 20px 21px;
+    padding: 10px;
+    width: 411px;
+    border-radius: 13px;
+}
+#section .box img{
+    margin: 7px 115px;
+    height: 224px;
+    width: 177px;
+}
+#section .box h4{
+     font-size: 26px;
+     text-align: center;
+     margin: 9px;
+     color:#0320fc ;
+}
+.box>h4 a:hover{
+    color: darkcyan;
+}
+#section .box p{
+    font-size: 16px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#order{
+    background: url(img/ordernow4.jpg) no-repeat center center/cover;
+    height: 591px;
+    overflow: hidden;
+}
+#order h1{
+    color: rgb(0, 0, 0);
+    font-size: 62px;
+    padding: 21px;
+    margin-left: 900px;
+}
+form{
+   font-size: 24px;
+   text-align: left;
+}
+.order{
+    border: 3px solid black;
+    width: 495px;
+    height: 400px;
+    margin-left: 900px;
+    margin-top: 5px;
+}
+tr{
+    background-color: white;
+    font-size: 23px;
+}
+button{
+    font-size: 20px;
+    border-radius: 10px;
+    background: url(img/background4.jpg) no-repeat center center/cover;
+    color: white;
+}
+#feedback{
+    background: url(img/bg.jpg) no-repeat center center/cover;
+    height: 579px;
+    overflow: hidden;
+}
+#feedback h1{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 62px;
+    padding: 21px;
+}
+#feedback table{
+    border: 3px solid #000000;
+    width: 704px;
+    height: 350px;
+}
+#feedback label{
+    padding: 6px 10px;
+}
+button{
+    font-size: 20px;
+    border-radius: 10px;
+    background: url(img/background4.jpg) no-repeat center center/cover;
+    color: white;
+}
+form input {
+    height: 16px;
+}
+.check{
+    width: 15px;
+}
+    
